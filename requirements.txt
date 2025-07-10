@@ -1,0 +1,8 @@
+streamlit
+opencv-python
+mediapipe
+numpy
+insightface
+scikit-learn
+ultralytics
+pymongo
