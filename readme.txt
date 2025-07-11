@@ -10,11 +10,13 @@ This project is a real-time face registration and pose validation system built u
 -----------------------
 1. Install Python 3.8 (recommended).
 2. Create and activate a virtual environment.
-3. Install required libraries:
+3. https://visualstudio.microsoft.com/visual-cpp-build-tools/
+   Visit the link for downloading visual studio build tools and inside it download desktop tools for c++. (it's for installing insigtface library as it build on c++)
+4. Install required libraries:
    pip install streamlit opencv-python insightface pandas numpy openpyxl
-4. Download the `buffalo_l` model from:
+5. Download the `buffalo_l` model from:
    https://huggingface.co/deepinsight/insightface/tree/main/models/buffalo_l
-5. Place the model in:
+6. Place the model in:
    C:\Users\<YourUsername>\.insightface\models\buffalo_l
    (Maintain the full folder structure as shown above.)
 
