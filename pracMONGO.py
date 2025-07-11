@@ -12,10 +12,10 @@ from datetime import datetime
 from pymongo import MongoClient
 
 # setting up mongoDB
-client = MongoClient("mongodb+srv://adityapawar2:jaypee@encodings.udy73ch.mongodb.net/?retryWrites=true&w=majority&appName=encodings")
+client = MongoClient("")             #your mongoDb connection link
 
-db = client["face_encodings"]
-collection = db["face_recognition"]
+db = client["face_encodings"]        #your database name
+collection = db["face_recognition"]  #your collection name
 
 # Setup InsightFace
 app = FaceAnalysis(name='buffalo_l')
