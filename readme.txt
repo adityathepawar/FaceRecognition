@@ -37,3 +37,8 @@ This project is a real-time face registration and pose validation system built u
 
 -----------------------
 Built with Python, Streamlit, OpenCV, and InsightFace.
+
+1. python version 3.8
+2. visual studio build tools - (inside the application install c++ build tools)
+3. libraries :- streamlit pymongo gridfs numpy pillow scikit-learn opencv-python mediapipe    insightface ultralytics onnxruntime
+4. A mongoDb server
